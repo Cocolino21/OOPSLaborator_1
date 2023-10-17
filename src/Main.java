@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("HELLO ");
         //CHESSBOARD PROBLEM
-        ChessBoardProblem cbp = new ChessBoardProblem();
+        ChessBoardProblem cbp = new ChessBoardProblem(64);
         System.out.println("Numarul total de boabe de pe tabla de sah este : " + cbp.getTotalBoabe());
 
 

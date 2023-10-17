@@ -4,9 +4,9 @@ public class ChessBoardProblem {
 
     private final int nrCasute;
     private BigInteger totalBoabe;
-    public ChessBoardProblem()
+    public ChessBoardProblem(int nrSquares)
     {
-       nrCasute = 64;
+       this.nrCasute = nrSquares;
        totalBoabe=BigInteger.ZERO;
    }
 
